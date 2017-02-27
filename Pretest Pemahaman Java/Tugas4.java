@@ -1,14 +1,14 @@
-public class Tugas3{
+public class Tugas5{
 
      public static void main(String []args){
-        int a = 3;
-        int b = TampilAngka(a);
-        System.out.println("Angka yang anda masukkan adalah " + b);
+        int param = 2;
+        int hasil = Penjumlahan(param);
+        System.out.println("Angka penjumlahan " + param + " + 1 = " + hasil);
      }
      
-     public static int TampilAngka(int a1) {
+     public static int Penjumlahan(int a1) {
       int angka = a1;
 
-      return angka; 
+      return angka + 1; 
    }
 }
