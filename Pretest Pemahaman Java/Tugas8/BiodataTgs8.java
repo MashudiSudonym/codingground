@@ -3,7 +3,7 @@ public class BiodataTgs8{
 	String alamat = "Jepara";
 	int umur = 21;
 
-	void CekBiodata(){
+	void CetakBiodata(){
 		System.out.println("Nama : " + nama + "\nAlamat : " + alamat + "\nUmur : " + umur);
 	}
 }
